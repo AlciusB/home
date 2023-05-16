@@ -1,0 +1,101 @@
+
+
+/*Added fonts!*/
+@font-face
+{
+	font-family: Mistrully;
+	src: url(Mistrully.ttf);
+	font-family: Calibri;
+	src: url(Calibri-Regular.ttf);
+}
+	
+div
+{
+	background-color: black;
+}
+
+p, li
+{
+	font-family: Calibri, sans-serif;
+	font-size: 14px;
+	color: white;
+}
+
+h1, h2, h3
+{
+	font-family: Calibri, serif;
+	font-weight: bold;
+	color: #9fff21;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+body 
+{
+	color: #FFFFFF;	
+	margin-bottom: 100px;
+} 
+
+p, li
+{
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+a
+{
+	color: #FFD712;
+	text-decoration: none;
+}
+
+
+#image
+{
+	float: right;
+	padding: 25px;
+}
+
+.gallery
+{
+	float: right;
+	margin-left: 25px;
+	margin-right: 100px;
+	margin-top: 25px;
+	width: 25%;  /*I'm using percents so when it resizes to fit the page it doesn't look weird!*/
+	object-fit: contain;
+	text-align: center;
+}
+
+.division
+{
+	background-color: black;
+	margin-left: 100px;
+	width: 55%;
+	padding: 25px;
+	margin-top: 25px;
+	float: left;
+	object-fit: contain;
+}
+
+.bottom
+{
+	margin-bottom: 100px;
+}
+
+.side-img
+{
+	width: 200px;
+	padding-top: 25px;
+}
+
+
+
+#W3C
+{
+	padding: 25px;
+}
+
+#CSS
+{
+	padding: 25px;
+}

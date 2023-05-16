@@ -1,0 +1,111 @@
+
+/*Added fonts!*/
+@font-face
+{
+	font-family: Mistrully;
+	src: url(Mistrully.ttf);
+	font-family: Calibri;
+	src: url(Calibri-Regular.ttf);
+	font-family: Coiny-Cyrillic;
+	src: url(Coiny-Cyrillic.ttf);
+}
+
+
+/*I learned how create one on W3Schools, it really is a great resource!*/
+.top
+{
+	text-align: center;
+	padding: 25px;
+	font-size: 100px;
+	background-color: black;
+	color: #FFFFFF;
+	font-family: Mistrully, serif;
+	font-weight: normal;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+/*To make the top stay consistant even though it becomes a link when it is off  the main page*/
+.top a
+{
+	color: #FFFFFF;
+}
+
+
+/*formatting for the navbar container*/
+.navbar
+{
+	overflow: hidden;
+	background-color: black;
+	font-family: Coiny-Cyrillic, serif;
+	margin-top: -100px;
+	margin-right: 100px;
+	margin-left: 100px;
+	border-radius: 30px;
+}
+
+/*Formatting for the links inside the navbar*/
+.navbar a
+{
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+}
+
+/*formatting for the header/button part*/
+.dropdown
+{
+	float: left;
+	overflow: hidden;
+}
+
+/*the header/button part*/
+.dropdown .dropbutton
+{
+	font-size: 14px;
+	border: none;
+	outline: none;
+	padding: 14px 16px;
+	background-color: black;
+	font-family: Coiny-Cyrillic, serif;
+	margin: 0;
+	color: #FFD712;	
+}
+
+
+
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background-color: #842F7E;
+	min-width: 160px;
+	z-index: 1;	
+	border-radius: 0px;
+}
+
+/*Formating for the links inside the text*/
+.dropdown-content a
+{
+	float: none;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+/*Shows the list when mouse is on it*/
+.dropdown:hover .dropdown-content
+{
+	display: block;
+}
+
+
+body
+{
+	background-image: url('Homepage.png');
+	background-origin: content-box;
+	background-size: 500px;
+}
